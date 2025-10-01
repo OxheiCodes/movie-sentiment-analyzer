@@ -18,3 +18,16 @@ AI-powered web application that classifies movie reviews as **Positive**, **Neut
 - **Deployment:** Render / Railway
 
 ## 📂 Project Structure
+
+## 🏗️ Development Phases
+
+- [x] Phase 1: Setup & Planning
+- [ ] Phase 2: Model Training
+- [ ] Phase 3: Backend API Development
+- [ ] Phase 4: Frontend Development
+- [ ] Phase 5: Database Integration
+- [ ] Phase 6: Deployment
+
+## 📝 License
+
+MIT License
