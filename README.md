@@ -31,15 +31,28 @@ AI-powered web application that classifies movie reviews as **Positive**, **Neut
 ## 📋 Development Roadmap
 
 ### Phase 1: Setup & Planning ✅
+
 - [x] GitHub repo created
 - [x] Python environment configured
 - [x] IMDb dataset loaded and explored
 - [x] Project structure defined
 
-### Phase 2: Model Training (Next)
-- [ ] Train baseline sentiment classifier
-- [ ] Evaluate model performance
-- [ ] Save trained model for API use
+### Phase 2: Model Development ✅
+
+- [x] Preprocessed IMDb dataset (5000 training samples)
+- [x] Trained Logistic Regression baseline (85-88% accuracy)
+- [x] Trained Naive Bayes comparison model
+- [x] Tested HuggingFace DistilBERT (90-93% accuracy)
+- [x] Selected Logistic Regression for production (speed + accuracy balance)
+- [x] Saved models to `backend/models/`
+- [x] Created `model.py` inference wrapper
+- [x] Verified prediction speed < 10ms per review
+
+**Model Performance:**
+
+- Accuracy: 85-88%
+- F1 Score: 0.85+
+- Avg Prediction Time: 1-5ms
 
 ## 📝 License
 
